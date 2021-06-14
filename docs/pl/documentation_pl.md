@@ -1201,7 +1201,7 @@ Nie istnieje i nie będzie istniała możliwość _de facto_ rozpisania akcji na
 
 W artykule <b><a href="#dwa-rejony-plemienia-czyli-co-to-front-i-zaplecze">Dwa rejony plemienia czyli co to front i zaplecze</a></b> dowidziałeś/aś się jak Planer radzi sobie z podziałem na <span class="md-error">Front</span>, <span class="md-error">Zaplecze</span>i <span class="md-error">Poza</span>. Najpierw omówimy punkty **1.** i **2.** na powyższym zdjęciu.
 
-<div class="p-3 mb-2" style="background: #CEF2F3 !important;">Uwaga, dla całości rozważań poniżej, ignorujemy wszystkie wioski z rejonu<span class="md-error">Poza</span>. Są one całkowicie pomijane przez Planer, stąd skupiamy się jedynie na froncie i zapleczu.</div>
+<div class="p-3 mb-2" style="background: #CEF2F3 !important;">Uwaga, dla całości rozważań poniżej, ignorujemy wszystkie wioski z rejonu <span class="md-error">Poza</span>. Są one całkowicie pomijane przez Planer, stąd skupiamy się jedynie na froncie i zapleczu.</div>
 
 <h5>Ustawienia 1-2:</h5>
 <img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/4_030_change-mode1.1.png" alt="Target mode change 1">

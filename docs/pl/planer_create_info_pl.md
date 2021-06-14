@@ -16,4 +16,4 @@ Istnieje możliwość zmiany serwera gry na inne, zagraniczne jak choćby www.tr
 
 ### Dodawanie nowych światów
 
-Jeśli brakuje któregoś ze światów, istnieje możliwość jego dodania, jeśli rzeczywiście nie ma go w bazie danych, jego ustawienia i dane o wioskach i graczach, zostaną automatycznie pobrane.
+Jeśli brakuje któregoś ze światów, istnieje możliwość jego dodania po przejściu do <span class="md-correct2">Menu -> Dodaj świat</span> (każdy użytkownik może to zrobić). Jego ustawienia, dane o wioskach i graczach, zostaną automatycznie pobrane.
