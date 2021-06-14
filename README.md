@@ -49,5 +49,22 @@ Consider subsection `## 1. Skrypt zbiórka wojska {#army-script}`. This `<h2>` e
 
 Let's use English docs below, but it works for other languages too (`documentation_pl.md` instead of `documentation_en.md`)
 
-1. documentation_en.md
-   [plemiona-planer.pl/pl/documentation](https://plemiona-planer.pl/en/documentation)
+`documentation_en.md`
+
+[plemiona-planer.pl/en/documentation - docs tab](https://plemiona-planer.pl/en/documentation)
+
+`planer_create_info_en.md` and `planer_create_example_en.md`
+
+[plemiona-planer.pl/en/planer/create/ - new outline tab](https://plemiona-planer.pl/en/planer/create/)
+
+`planer_deff_info_en.md` and `planer_deff_example_en.md`
+
+[plemiona-planer.pl/en/planer/1000/get-deff - deff tab](https://plemiona-planer.pl/en/planer/1000/get-deff)
+
+`planer_form_info_en.md` and `planer_form_example_en.md`
+
+[plemiona-planer.pl/en/planer/1000/planer-form - form tab](https://plemiona-planer.pl/en/planer/1000/planer-form)
+
+`planer_scripts_info_en.md` and `planer_scripts_examples_en.md`
+
+[plemiona-planer.pl/en/planer/1000 - tab with troops](https://plemiona-planer.pl/en/planer/1000)
