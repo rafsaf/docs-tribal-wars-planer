@@ -15,7 +15,7 @@
 
 <p class="my-0"><b><a target="_blank" href="/documentation#zmiana-daty-akcji">2. Zmiana daty akcji.</a></b></p>
 <p class="my-0"><b><a target="_blank" href="/documentation#domyslne-ustawienia-trybu-akcji">3. Domyślne ustawienia trybu akcji.</a></b></p>
-<p class="my-0"><b><a target="_blank" href="/documentation#wybierz-tryb-dla-kazdego-celu-z-osobna">4. Wybierz tryb dla każdego celu z osobna.</a></b></p>
+<p class="my-0"><b><a target="_blank" href="/documentation#rozpisywanie-wolnej-szlachty">4. Rozpisywanie wolnej szlachty.</a></b></p>
 <p class="my-0"><b><a target="_blank" href="/documentation#unikanie-bonusu-nocnego">5. Unikanie wysyłek w bonusie.</a></b></p>
 <p class="my-0"><b><a target="_blank" href="/documentation#burzenie">6. Burzenie.</a></b></p>
 

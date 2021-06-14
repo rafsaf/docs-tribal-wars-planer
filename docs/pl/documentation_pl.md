@@ -264,7 +264,10 @@ Cała zakładka służy głównie dwóm celom, jest to wpisywanie celów, oraz a
 
 ### Ustawianie dostępnych jednostek
 
-Rozwiń pierwszą zakładkę <span class="md-correct2">1. Dostępne jednostki</span>. W polach formularza możesz pozostawić domyślne wartości, zmieniając jedynie <span class="md-correct2">Maksymalna odległość dla szlachciców</span> na 120. Celem jest podzielenie wszystkich naszych wiosek na dwie grupy, <span class="md-error">Frontowe</span> oraz <span class="md-error">Zapleczowe</span> w zależności od wpisanych wrogich plemion (liczona jest odległość od najbliższych wrogów dla każdej naszej wioski). Dla <span class="md-correct2">Świata Testowego</span> wszystkie wioski są na zapleczu, czyli daleko od wroga. Zatwierdź formularz klikając <span class="md-correct2">Zapisz i odśwież dostępne</span>.
+<p class="md-error">Wprowadź te wartości do formularza w 1 zakładce:</p>
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/1_000_test-filled-form.png" alt="test world example content form">
+
+Rozwiń pierwszą zakładkę <span class="md-correct2">1. Dostępne jednostki</span>. W polach formularza zmień **Minimalną odległość od linii frontu** na 90, **Maksymalną odległość od linii frontu** na 130, zaś **Maksymalna odległość dla szlachciców** na 120 (zobacz rysunek wyżej). Celem jest podzielenie wszystkich naszych wiosek na trzy grupy, <span class="md-error">Frontowe</span>, <span class="md-error">Zapleczowe</span> oraz <span class="md-error">Poza</span> (bardzo dalekie) w zależności od wpisanych wrogich plemion (liczona jest odległość od najbliższych wrogów dla każdej naszej wioski). Dla <span class="md-correct2">Świata Testowego</span> wszystkie wioski są daleko od wroga stąd te odległości są znaczne. Zatwierdź formularz klikając <span class="md-correct2">Zapisz i odśwież dostępne</span>.
 
 <p class="md-error">Powinieneś zobaczyć w tabeli poniższe rezultaty:</p>
 <img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/1_010_test-example.png" alt="test world example content form">
@@ -277,7 +280,7 @@ Rozwiń pierwszą zakładkę <span class="md-correct2">1. Dostępne jednostki</s
 
 ### Zakładki w menu akcji
 
-W następnej zakładce zobaczysz Menu z 5 zakładkami zaznaczonymi na obrazku poniżej (2,3,4,5), przyciskiem Powrotu do poprzedniej zakładki (1), edycji każdego celu (7,8,9) oraz nawigacja między stronami (10).
+W następnej zakładce zobaczysz Menu z 5 zakładkami zaznaczonymi na obrazku poniżej (2,3,4,5), przyciskiem Powrotu do poprzedniej zakładki (1), edycji każdego celu (9,10,11), wyszukiwanie rozkazów (7) i nawigację między stronami (8).
 
 <img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/1_020_test-menu.png" alt="test world example menu">
 <br>
@@ -287,21 +290,21 @@ Ta zakładka jest bardzo prosta. Dodaj kordy wioski zaznaczając czy jest to cel
 
 <p class="md-error">3. MENU - USTAW CELE</p>
 
-Cele są podzielone po 12 na jedną stronę. Przy każdym z nich znajduje się przycisk <span class="md-correct2">Edytuj</span> pozwalający dopracować każdy cel z osobna. Klikając na edycję pierwszego celu czyli <span class="md-error">nr 6</span> na powyższym zdjęciu dostaniemy poniższy widok wraz z ponumerownymi przyciskami, opisanymi poniżej.
+Cele są podzielone po 12 na jedną stronę. Przy każdym z nich znajduje się przycisk <span class="md-correct2">Edytuj</span> pozwalający dopracować każdy cel z osobna. Klikając na edycję pierwszego celu czyli <span class="md-error">nr 9</span> na powyższym zdjęciu dostaniemy poniższy widok wraz z ponumerownymi przyciskami, opisanymi poniżej.
 
 <br>
 <img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/1_030_test-target.png" alt="test world example target edit">
 <br>
 
-<p class="my-0"><span class="md-error">1, 2</span> - Zamiana rozkazów miejscami.</p>
+<p class="my-0"><span class="md-error">1,2</span> - Zamiana rozkazów miejscami.</p>
 <p class="my-0"><span class="md-error">3</span> - Usuwanie rozkazu, wraca on do puli po prawej.</p>
 <p class="my-0"><span class="md-error">4</span> -  Zmiana ilości wojsk w ataku.</p>
 <p class="my-0"><span class="md-error">5</span> -  Podział ataku na 2,3,4 równe części.</p>
 <p class="my-0"><span class="md-error">6</span> -  Sortowanie pozostałych wiosek na kilkanaście sposobów.</p>
-<p class="my-0"><span class="md-error">7, 8</span> -  Filtrowanie po wielkości pozostałych offów.</p>
+<p class="my-0"><span class="md-error">7,8</span> -  Filtrowanie po wielkości pozostałych offów.</p>
 <p class="my-0"><span class="md-error">9</span> -  Pokazywanie wszystkich, frontowych, zapleczowych lub ukrytych wiosek.</p>
-<p class="my-0"><span class="md-error">10,11</span> -  Dodawanie nowej atakującej wioski, na górę i na dół.</p>
-<p class="my-0"><span class="md-error">12</span> -  Dodawanie wioski do ukrytych.</p>
+<p class="my-0"><span class="md-error">10</span> -  Dodawanie wioski do ukrytych.</p>
+<p class="my-0"><span class="md-error">11,12</span> -  Dodawanie nowego rozkazu z tej wioski, na górę i na dół (po lewej offy, po prawej offoszlachty itp., najedź na pytajnik po szczegóły).</p>
 
 ---
 
@@ -334,7 +337,7 @@ To samo co ustawianie prawdziwych celów, z tą różnicą że domyślnie widocz
 
 Użytkownik ma możliwość tworzenia wielu obiektów w zakładce, w praktyce jednak wystarczyć może nawet jeden lub kilka. Wybieramy przedziały czasowe dla rozkazu, jednostkę oraz tryb spośród 3 możliwych. Przykładowy, skomplikowany czas mógłby wyglądać tak:
 
-<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/1_060_time1.png?raw=true" alt="test world time 1">
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/1_060_time1.png" alt="test world time 1">
 <br>
 
 Co oznacza:
@@ -864,24 +867,36 @@ W takim przypadku zmiast jednej liczby offów wpisaliśmy **2|0|5|0** a zamiast 
 
 ## Dwa rejony plemienia czyli co to Front i Zaplecze {#dwa-rejony-plemienia-czyli-co-to-front-i-zaplecze}
 
-<div class="p-3 mb-2 bg-light text-dark"><i class="bi bi-info-square"></i> <span class="md-error">Zawsze</span> rozpoczynaj rozpisywanie <b>dowolnej akcji na tej stronie</b> od policzenia wszystkich offów i podzieleniu ich na <span class="md-error">Frontowe</span>, <span class="md-error">Zapleczowe</span> oraz (ewentualnie) <span class="md-error">Poza</span> zgodnie z duchem danej rozpiski. Do tego celu służy zakładka <span class="md-correct2">1. Dostępne jednostki</span>, zaś wyniki prezentowane są w tabeli pod celami.</div>
+<div class="p-3 mb-2 bg-light text-dark"><i class="bi bi-info-square"></i> Zawsze rozpoczynaj rozpisywanie <b>dowolnej akcji na tej stronie</b> od policzenia wszystkich offów i podzieleniu ich na <span class="md-error">Frontowe</span>, <span class="md-error">Zapleczowe</span> oraz <span class="md-error">Poza</span> zgodnie z duchem danej rozpiski. Do tego celu służy zakładka <span class="md-correct2">1. Dostępne jednostki</span>, zaś wyniki prezentowane są w tabeli pod celami.</div>
 
-Odpowiedzią na to, by podczas rozpisywania akcji **nie** rozpisywać frontowych offów frontowcom, którzy powinni je trzymać na dobitki z bliska (lub używać w dowolny inny sposób), jest podział naszych wiosek na dwie grupy, <span class="md-error">Front</span>, czyli offy i szlachta **blisko** wroga, oraz <span class="md-error">Zaplecze</span> czyli offy i szlachta **daleko** od wroga. Od wersji 2.1.0 doszedł kolejny rejon <span class="md-error">Poza</span> intuicyjnie oznaczający bardzo dalekie wioski (ale przykładów zastosowań jest więcej), rozwiązujący problem offów z bardzo daleka, które nie są porządane, ale nie tylko, bo również pozwalający na akcję offami z **przedziału** np. 20 kratek - 80 kratek. Jak dokładnie to się odbywa i jak to kontrolować, wyjaśni się za chwilę.
+Odpowiedzią na to, by podczas rozpisywania akcji **nie** rozpisywać frontowych offów frontowcom, którzy powinni je trzymać na dobitki z bliska (lub używać w dowolny inny sposób), jest podział naszych wiosek na dwie najważniejsze grupy, <span class="md-error">Front</span>, czyli offy i szlachta **blisko** wroga, oraz <span class="md-error">Zaplecze</span> czyli offy i szlachta **daleko** od wroga. Od wersji 2.1.0 doszedł kolejny rejon <span class="md-error">Poza</span> intuicyjnie oznaczający bardzo dalekie wioski (ale przykładów zastosowań jest więcej), rozwiązujący problem offów z bardzo daleka, które nie są porządane, ale nie tylko, bo również pozwalający na akcję offami z **przedziału** np. 20 kratek - 80 kratek. Jak dokładnie to się odbywa i jak to kontrolować, wyjaśni się za chwilę.
 
-To, jak zostaną podzielone nasze offy i szlachta, zależy od ustawień w zakładce <span class="md-correct2">1. Dostępne jednostki</span>, rozważmy najpierw **0 kratek Minimalnej odległości od linii frontu** oraz **500 kratek Maksymalnej odległości od linii frontu**, patrz rys. niżej.
+<h5>Całość intuicji związanej z podziałem można skrócić do poniższego zdjęcia:</h5>
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="https://raw.githubusercontent.com/rafsaf/tw-complex/main/images/Figure_3.png" alt="Troops form">
+
+Nasze plemiona (na niebiesko) otaczają wroga (czerwonego), na lewym zdjęciu widać stan SPRZED działania algorytmu, zaś na prawym PO jego zastosowaniu. Podzieliśmy całość naszych wiosek na "sektory" w zależności od odległości od wroga: najbliżej czerwonego- **Front**, trochę dalej ale nie do przesady- **Zaplecze**, zaś wioski bardzo dalekie pozostały niebieskie i oznaczają one **Poza**. PS. Ta część aplikacji jest dostępna jako open-source i jest dostępna przez PyPI oraz na [GitHubie](https://github.com/rafsaf/tw-complex).
+
+To, jak zostaną podzielone nasze offy i szlachta, zależy od ustawień w zakładce <span class="md-correct2">1. Dostępne jednostki</span>, rozważmy kilka popularnych możliwości.
+
+<div class="p-3 mb-2" style="background: #CEF2F3 !important;">Offy blisko celów i szlachta blisko celów, działają identycznie jak Offy i Szlachta, tyle tylko, że zamiast brać pod uwagę "wszystkich" wrogów i na tej podstawie dzielić na rejony, biorą pod uwagę tylko cele wpisane przez Użytkownika w <b>Cele</b>. Jest to dużo dokładniejszy wynik, bo wiadomo ile mamy dostępnych jednostek w pobliżu celów (może się to bardzo różnić w stosunku do tego co mamy w całym plemieniu).</div>
 
 <br>
-<h5>Zakładka <span class="md-correct2">1. Dostępne jednostki</span> gdzie dzielimy offy i szlachtę na Front i Zaplecze</h5>
-<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/3_040_troops-form.png" alt="Troops form">
+<h5>Przykład wyniku dla <b>min. 0 kratek i maks. 500 kratek</b>- czyli nie chcemy ŻADNYCH "Frontów" i żadnych "Poza", wszystko jest zapleczem i wszystko można rozpisać.</b></h5>
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/3_040_troops-form1.png" alt="Troops form1">
+
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/3_050_troops-table1.png" alt="Troops table1">
 
 <br>
-<h5>Przykład wyniku dla <b>0 kratek odległości od linii frontu</b></h5>
-<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/3_050_troops-table1.png" alt="Troops table2">
+<h5>Przykład wyniku dla <b>min. 15 kratek i maks. 100 kratek</b>- czyli chcemy  by gracze którzy mają poniżej 15 kratek od wroga, trzymali offy jako frontowcy i nie chcemy by jakikolwiek off miał dalej od celu niż 100 kratek (czyli leciał dłużej niż 2 doby etc).</b></h5>
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/3_041_troops-form2.png" alt="Troops form2">
+
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/3_051_troops-table2.png" alt="Troops table2">
 
 <br>
-<h5>Przykład wyniku dla <b>20 kratek odległości od linii frontu</b></h5>
-<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/3_060_troops-table2.png" alt="Troops table2">
-<br>
+<h5>Przykład wyniku dla <b>min. 60 kratek i maks. 120 kratek</b>- kiedy chcemy, aby zaplecze było powyżej 60 kratek od wroga i poniżej 120, np. przy akcji czy burzeniu z daleka (a z bliska robimy osobną).</b></h5>
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/3_042_troops-form3.png" alt="Troops form3">
+
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/3_052_troops-table3.png" alt="Troops table3">
 
 Tylko offy **większe niż wybrana minimalna liczba jednostek w offie** zostaną pokazane. W obecnej wersji ck z offów również będą **rozpoznane** i odróżnione od ck z wiosek deffowych oraz policzone. Wynik zależy głównie od <span class="md-error">Przeciwnych plemion</span>, które zostały wybrane na samym początku przy tworzeniu rozpiski. Algorytm jest bardzo prosty, dookoła każdej **wrogiej** wioski liczony jest rejon w odległości, która została podana jako <b>odległość od linii frontu</b>. Biorąc sumę tych wszystkich rejonów w całość, możemy dla każdej **sojuszniczej** wioski wskazać czy jest ona w pobliżu tych wrogich wiosek (wtedy jest frontowa), czy też nie jest (wtedy jest na zapleczu). Stąd też w pole <span class="md-correct2">Nieuwzględniane przy liczeniu frontowych offów wioski wroga</span> wklejamy wszelkie wrogie diody, by nie zaburzały wyniku.
 
@@ -1135,7 +1150,7 @@ Podsumowując warto zastanowić się nad ilością katapult (i ile budynków war
 <p class="mb-0"><b><a href="#dostepne-jednostki-i-opis-tabeli">1. Dostępne jednostki i opis Tabeli.</a></b></p>
 <p class="my-0"><b><a href="#zmiana-daty-akcji">2. Zmiana daty akcji.</a></b></p>
 <p class="my-0"><b><a href="#domyslne-ustawienia-trybu-akcji">3. Domyślne ustawienia trybu akcji</a></b></p>
-<p class="my-0"><b><a href="#wybierz-tryb-dla-kazdego-celu-z-osobna">4. Wybierz tryb dla każdego celu z osobna</a></b></p>
+<p class="my-0"><b><a href="#rozpisywanie-wolnej-szlachty">4. Rozpisywanie wolnej szlachty</a></b></p>
 <p class="my-0"><b><a href="#unikanie-bonusu-nocnego">5. Unikanie bonusu nocnego.</a></b></p>
 <p class="my-0"><b><a href="#burzenie">6. Burzenie.</a></b></p>
 
@@ -1184,7 +1199,9 @@ Nie istnieje i nie będzie istniała możliwość _de facto_ rozpisania akcji na
 <h5>Wygląd zakładki z domyślnymi ustawieniami:</h5>
 <img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/4_020_change-mode1.png" alt="Target mode change">
 
-W artykule <b><a href="#dwa-rejony-plemienia-czyli-co-to-front-i-zaplecze">Dwa rejony plemienia czyli co to front i zaplecze</a></b> dowidziałeś/aś się jak Planer radzi sobie z podziałem na <span class="md-error">Front</span> i <span class="md-error">Zaplecze</span>. Najpierw omówimy punkty **1.** i **2.** na powyższym zdjęciu.
+W artykule <b><a href="#dwa-rejony-plemienia-czyli-co-to-front-i-zaplecze">Dwa rejony plemienia czyli co to front i zaplecze</a></b> dowidziałeś/aś się jak Planer radzi sobie z podziałem na <span class="md-error">Front</span>, <span class="md-error">Zaplecze</span>i <span class="md-error">Poza</span>. Najpierw omówimy punkty **1.** i **2.** na powyższym zdjęciu.
+
+<div class="p-3 mb-2" style="background: #CEF2F3 !important;">Uwaga, dla całości rozważań poniżej, ignorujemy wszystkie wioski z rejonu<span class="md-error">Poza</span>. Są one całkowicie pomijane przez Planer, stąd skupiamy się jedynie na froncie i zapleczu.</div>
 
 <h5>Ustawienia 1-2:</h5>
 <img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/4_030_change-mode1.1.png" alt="Target mode change 1">
@@ -1232,18 +1249,9 @@ Najbardziej sensowna opcja szczególnie dla większych akcji to raczej **dzielen
 <br>
 <br>
 
-## 4. Wybierz tryb dla każdego celu z osobna {#wybierz-tryb-dla-kazdego-celu-z-osobna}
+## 4. Rozpisywanie wolnej szlachty {#rozpisywanie-wolnej-szlachty}
 
-<div class="p-3 mb-2 bg-light text-dark"><i class="bi bi-info-square"></i> Zakładka służy do ustalenia szczegółów skąd dokładnie powinny lecieć offy na akcję dla każdego celu z osobna. Do wyboru dla poszczególnych celów są opcje omawiane w <b><a href="#domyslne-ustawienia-trybu-akcji">3. Domyślne ustawienia trybu akcji</a></b>.</div>
-
-<h5>Wygląd zakładki z kilkoma poprzestawianymi trybami:</h5>
-<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/4_050_target-mode-change.png" alt="Target mode change">
-
-<br>
-
-Uwaga, pamiętaj że po każdym ponownym kliknięciu <span class="md-correct2">Zapisz cele</span>, ustawienia wszystkich celów powracają do tych z zakładki **3. Domyślne ustawienia trybu akcji**. Być może lepszym sposobem, jest używanie rozszerzonego kodowania celów omawianego w **Podstawowych poradnikach zakładki Planer**, w artykule<br> <b><a href="#jak-wpisywac-i-zapisac-cele-akcji">Jak wpisywać i zapisać cele akcji</a></b>.
-
-<div class="p-3 mb-2 bg-light text-dark"><i class="bi bi-info-square"></i> Formularz zmiany trybów dla każdego celu z osobna, jest dostępny tylko do 100 celi, powyżej tej ilości wyświetlna jest krótka informacja, że nie można jej użyć.</div>
+<div class="p-3 mb-2 bg-light text-dark"><i class="bi bi-info-square"></i> Zakładka służyć będzie uwzględnianiu w akcji wolnej szlachty tak by gracze dostali w celach gdzie mają je wybudować i potem wysłać. Optymistyczny termin- do końca wakacji, pesymistyczny- roku :)</div>
 
 <br>
 
