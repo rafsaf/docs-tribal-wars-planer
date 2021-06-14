@@ -40,3 +40,14 @@ Something very important:
 ```
 <div class="p-3 mb-2" style="background: #CEF2F3 !important;">This is a very, very important note</div>
 ```
+
+#### 3. Existing headers IDs
+
+Consider subsection `## 1. Skrypt zbiórka wojska {#army-script}`. This `<h2>` element will have **ID** **army-script** (there are many many headers with **ID** like that). Do _NOT_ change (translate) `#army-script` regardless of used language. It is not so important to have it in specific language, and it may lead to weird bugs if someone change **ID** somewhere in docs and forget to do so in other file or files. Some of the **ID**s are also used directly in site code and thus completely unchangable, f.e. in tab where User creates new outline, there is a link to `#swiat-testowy-czyli-pierwsze-kroki-z-planerem` section, therefore after changing it to something else, link would be dead.
+
+#### 4. Navigation hints (path in site - and equivalent documentation file)
+
+Let's use English docs below, but it works for other languages too (`documentation_pl.md` instead of `documentation_en.md`)
+
+1. documentation_en.md
+   [plemiona-planer.pl/pl/documentation](https://plemiona-planer.pl/en/documentation)
