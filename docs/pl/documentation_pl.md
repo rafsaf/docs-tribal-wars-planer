@@ -471,17 +471,17 @@ Następnie trzeba dodać poniższe skrypty do własnych skryptów:
 
 Po pomyślnej instalacji dodatku oraz dodaniu do niego skryptów, w grze, w zakładce **Plemię -> Członkowie -> Wojsko/Obrona** pojawią się przyciski uruchamiające skrypty.
 
-<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/images/zbiorkawojsko.png"  alt="Example1">
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/2_021_off-troops.png"  alt="Example1">
 
-<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/images/zbiorkaobrona.png" alt="Example2">
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/2_022_deff-troops.png" alt="Example2">
 
 ## Wyniki
 
 Po kliknięciu na powyższe przyciski, wyniki prezentowane są w czerownym okienku dialogowym, wystarczy skopiować (ctrl+c) zawartość i wkleić ją na stronie do danej rozpiski.
 
-<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/images/resultwojsko.png" alt="Example3">
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/2_023_result-off-troops.png" alt="Example3">
 
-<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/images/resultobrona.png" alt="Example4">
+<img id="large" class="img-thumbnail" onclick="img_box(this)" style="max-height:250px;" src="/static/docs/pl/2_024_result-deff-troops.png" alt="Example4">
 
 ---
 
