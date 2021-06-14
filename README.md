@@ -1,7 +1,8 @@
 ![plemiona-planer](https://plemiona-planer.pl/static/images/background.jpg)
 
 ## About
-Docs for the plemiona-planer.pl (Tribal Wars Planer) - django app and professional tool for creating outlines for off-game coordinators.
+
+Docs for the [plemiona-planer.pl](https://plemiona-planer.pl) (Tribal Wars Planer) - django app and professional tool for creating outlines for off-game coordinators.
 
 ## Official Site and Discord
 
@@ -22,8 +23,8 @@ You can create Pull Requests with changes in markdown docs and/or new images in 
 No stricte rules about font size, just use general mardkown sizes (follow rules from diffrent sections). There are only 2 colors allowed (not counting default black), **teal** and **red**, used as follows:
 
 ```
-<span class="md-error">something bad or importand - red color</span>
-<span class="md-correct2">something-highlighted - teak color</span>
+<span class="md-error">something bad or important - red color</span>
+<span class="md-correct2">something-highlighted - teal color</span>
 ```
 
 #### 2. Notes/Alerts
